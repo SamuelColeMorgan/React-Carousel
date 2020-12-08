@@ -1,0 +1,42 @@
+.carousel {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.carousel-slides {
+  height: 500px;
+  position: relative;
+  width: 100%;
+}
+
+.carousel-slider {
+  display: flex;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.carousel-slide {
+  background: orange;
+  height: 500px;
+  margin: 0 1px;
+  width: 1000px;
+}
+
+.carousel-controls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 36px;
+}
+
+.carousel-dot-indicators {
+  display: flex;
+}
+
+.carousel-dot-indicator {
+  background-color: navy;
+  border-radius: 50%;
+  height: 18px;
+  margin: 0 9px;
+  width: 18px;
+}
